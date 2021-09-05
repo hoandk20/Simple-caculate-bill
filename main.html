@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./public/css.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop card</title>
+</head>
+<body>
+    <div class="frame">
+        <div class="header">
+            <img  src="./public/duck.png">
+        </div>
+        <div class="body">
+            <button class="btn-add" id="btn-add">Add more Duck</button>
+            <ul class="items" id="items">
+                <li class="item">
+                    <span class="item-name">Stupid duck</span>
+                    <span class="quantity">
+                        <button id="btn-des">-</button>
+                        <input value="1" id="txtQuantity">
+                        <button id=btn-ins>+</button>
+                    </span>
+                    <span class="price">$9.99</span>
+                </li>
+            </ul>
+            <div class="sumary">
+                <p>Subtotal <span class="money" id="sub-total">$31</span></p>
+                <p>Ship fee <span class="money" id="ship">$3</span></p>
+                <p>Total <span class="money" id="total">$35</span></p>
+            </div>
+            <button class="btn-checkout">Checkout</button>
+        </div>
+    </div>
+</body>
+<script  src="./public/js.js"></script>
+</html>

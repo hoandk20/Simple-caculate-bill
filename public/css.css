@@ -1,0 +1,98 @@
+body{
+    background-image: linear-gradient(to right,rgb(245, 245, 160),rgb(252, 212, 140));
+}
+
+.frame img{
+    width: 25%;
+    border-radius: 90px;
+    border:1px black solid;
+    position: relative;
+    bottom: -30px;
+    background-color:white;
+    margin-left: 37%;
+}
+.header{
+    height: 100px;
+    background-color: burlywood;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.frame{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 7%;
+    border: 1px black solid;
+}
+.items{
+    margin-top: 20px;
+}
+.item{
+    margin-left: -20px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+.item input{
+    text-align: center;
+    margin-left: -10px;
+    width: 30px;
+    font-family: cursive;
+    border: none;
+}
+.item .item-name{
+    font-family: cursive;
+    margin-right: 40px;
+}
+.body{
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+}
+.item button{
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.item .price{
+    margin-left: 20px;
+    font-family: cursive;
+}
+.btn-add{
+    margin-top: 30px;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 20px;
+    font-family: cursive;
+}
+.sumary{
+    border-top: 1px black solid;
+    margin-right: 50px;
+}
+.sumary p{
+    
+    font-family: cursive;
+}
+.money{
+    float: right;
+    margin-left: 100px;
+}
+.btn-checkout{
+    width: 80%;
+    height: 35px;
+    margin-left:  10%;
+    border-radius: 7px;
+    font-family: cursive;
+    background-color: wheat;
+}
+.sumary{
+    margin-left:20px
+}
+
